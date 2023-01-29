@@ -60,9 +60,21 @@ img {
   background-color: hsl(179, 100%, 13%);
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tileRow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tile {
+    width: 90vw;
+    
   }
 }

@@ -17,15 +17,15 @@ families: ["Big Shoulders Display:700"]
 }
 });
 
-const TileRow = ({children}) => (
-  <div style={{display: 'flex', flexDirection: 'row'}}>
-    {children}
-  </div>
-);
+// const TileRow = ({children}) => (
+//   <div style={{display: 'flex', flexDirection: 'row'}}>
+//     {children}
+//   </div>
+// );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<TileRow>
+  <div className='container'>
 <div className='tile1'>
 <img src='icon-sedans.svg' alt='sedan image'/>
 <Tile
@@ -46,5 +46,5 @@ name="Luxury"
 text="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
  rental and arrive in style." />
 </div>
-</TileRow>
+</div>
 );
