@@ -4,14 +4,10 @@ import './index.css'
 function Tile(props) {
   return (
     <div className="tile">
-      <p>{props.name}
+      <p><h2>{props.name}</h2>
       <br />
       <br />
       {props.text}
-      {/* <br />
-      <br />
-      <br />
-      <br /> */}
       <button>Learn More</button></p>
       <br />
     </div>

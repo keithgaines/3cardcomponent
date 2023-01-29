@@ -3,6 +3,16 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
+h2 {
+  font-family: 'Big Shoulders Display'; 
+  font-size: 35pt;
+}
+
+p {
+  font-family: 'Lexend Deca';
+  font-size: 15pt;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -23,6 +33,11 @@ button {
   padding: 20px;
   width: 20vw;
   border-radius: 50px;
+}
+
+img {
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
 .tile {
