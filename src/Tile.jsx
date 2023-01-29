@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React from 'react'
+import './index.css'
 
 function Tile(props) {
   return (
@@ -7,7 +7,13 @@ function Tile(props) {
       <p>{props.name}
       <br />
       <br />
-      {props.text}</p>
+      {props.text}
+      {/* <br />
+      <br />
+      <br />
+      <br /> */}
+      <button>Learn More</button></p>
+      <br />
     </div>
   );
 }

@@ -18,6 +18,13 @@ body {
 
 }
 
+button {
+  margin-top: 15vw;
+  padding: 20px;
+  width: 20vw;
+  border-radius: 50px;
+}
+
 .tile {
   display: flex;
   flex-direction: row;
