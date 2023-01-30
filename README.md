@@ -51,4 +51,4 @@ I have a solid foundation in building web applications using React, and I am now
 ## Author
 
 - Website - [Keith Gaines](https://keithgaines.github.io)
-- Frontend Mentor - [@keithgaines](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@keithgaines](https://www.frontendmentor.io/profile/keithgaines)
